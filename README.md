@@ -1,6 +1,7 @@
 # Boas vindas ao repositório do projeto Trybe Wallet!
 
 # Habilidades
+
   * Criar um store Redux em aplicações React
 
   * Criar reducers no Redux em aplicações React
@@ -13,7 +14,7 @@
 
   * Criar actions assíncronas na sua aplicação React que faz uso de Redux.
 
-## O que deverá foi desenvolvido
+## O que foi desenvolvido
 
 Neste projeto foi desenvolvido uma carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário deverá ser capaz de:
   - Adicionar, remover e editar um gasto;
