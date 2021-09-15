@@ -1,0 +1,64 @@
+.expense-wallet {
+  align-items: center;
+  background: #1f6b52;
+  display: flex;
+  height: 90px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.form-expense-wallet {
+  color: white;
+  display: flex;
+  padding: 10px;
+}
+
+.form-expense-wallet label {
+  align-items: center;
+  color: white;
+  display: flex;
+  padding: 15px;
+}
+
+.form-expense-wallet input , select {
+  align-items: center;
+  background: white;
+  border: none;
+  border-radius: 4px;
+  font: 400 14px Roboto, sans-serif;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.form-expense-wallet button {
+  align-items: center;
+  background: #42c18c;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-weight: 500;
+  height: 50px;
+  justify-content: center;
+  margin-top: 13px;
+  padding: 0 32px;
+  text-decoration: none;
+  transition: filter 0.2s;
+  width: 100%;
+}
+
+.form-expense-wallet:after {
+  background: white;
+  border: 1px solid #1f6b52;
+  color: #1f6b52;
+}
+
+.form-expense-wallet:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-expense-wallet:not( :disabled ):hover {
+  filter: brightness(0.9);
+}
